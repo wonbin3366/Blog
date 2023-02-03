@@ -17,4 +17,6 @@ public interface UserRepository {
     public List<User> findAll();
 
     public User findByid(int id);
+
+    public User findByUsernameAndPassword(@Param("username") String username, @Param("password") String password);
 }
