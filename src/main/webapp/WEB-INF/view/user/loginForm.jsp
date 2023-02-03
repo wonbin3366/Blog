@@ -7,6 +7,7 @@
                     <div class="form-group mb-2">
                         <input type="text" name="username" class="form-control" placeholder="Enter username"
                             id="username">
+                        
                     </div>
 
                     <div class="form-group mb-2">

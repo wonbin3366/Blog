@@ -1,6 +1,5 @@
-package shop.mtcoding.blog;
+package shop.mtcoding.blog.controller;
 
-import org.springframework.context.annotation.Conditional;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -24,6 +23,6 @@ public class UserController {
 
     @GetMapping("/logout")
     public String logout() {
-        return "redirect:/loginForm";
+        return "redirect:/";
     }
 }
